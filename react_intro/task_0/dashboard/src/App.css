@@ -1,0 +1,40 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+  color: #333;
+}
+
+.App-header {
+  height: 182px;
+  display: flex;
+  text-align: center;
+  border-bottom: 2px solid #d32e3b;
+}
+.App-header>img {
+  height: 100%;
+}
+.App-header>h1 {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  color: #d32e3b;
+}
+.App-body {
+  padding: 25px 25px;
+  right: 50px;
+  font-family: sans-serif;
+}
+
+.App-footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #d32e3b;
+  bottom: 0;
+  width: 100vw;
+}
