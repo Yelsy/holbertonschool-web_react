@@ -11,11 +11,13 @@ function App() {
       </header>
       <body className="App-body">
         <p>Login to access the full dashboard</p>
-        <label>Email:</label>
-        <input type='text'></input>
-        <label>Password:</label>
-        <input type='text'></input>
-        <button type='button'>OK</button>
+        <form>
+          <label>Email:</label>
+          <input type='email'></input>
+          <label>Password:</label>
+          <input type='password'></input>
+          <button type='button'>OK</button>
+        </form>
       </body>
       <footer className="App-footer">
         <p>Copyright {getFullYear()} - {getFooterCopy('isIndex')}</p>
