@@ -1,0 +1,12 @@
+#CourseList {
+    color: #333;
+    outline: 1px solid #777;
+    position: absolute;
+    transform: translateX(5.0%);
+    top: 250px;
+    width: 90%;
+    padding: 0px;
+}
+thead > tr > td, th {
+	border-bottom: 2px solid lightgrey;
+}
