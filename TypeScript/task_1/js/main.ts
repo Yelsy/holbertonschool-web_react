@@ -23,12 +23,12 @@ function printTeacher (firstName: Teacher["firstName"], lastName: Teacher["lastN
   return (`${firstElement}.${lastName}`);
 }
 
-interface IStudentClass {
+interface student {
   firstName: string,
   lastName: string,
 }
 
-class StudentClass implements IStudentClass{
+class StudentClass implements student {
   firstName: string;
   lastName: string;
 
